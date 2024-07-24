@@ -78,7 +78,7 @@ class Agent:
         submit_button.click()
         print("Credential submitted")
     
-    def navigate_to_order_page(self, retry=10):
+    def navigate_to_order_page(self, retry=5):
         while retry > 0:
             try:
                 order_button = self.order_elements.get_order_list_button()

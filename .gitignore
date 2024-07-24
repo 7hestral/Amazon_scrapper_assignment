@@ -163,3 +163,4 @@ cython_debug/
 
 config.py
 .config.py
+result_html/
